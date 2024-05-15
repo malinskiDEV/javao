@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="caixola">
+            <div class="caixaazul">
+                <h1>Calculadora de Gorjetas</h1>
+                <div class="inputs">
+                    <h3>Quanto custou o Jantar no La Bodeguita</h3>
+                    <input type="number" id="primeiro">
+                    <h3>Em quantas pessoas será divida</h3>
+                    <input type="number" id="segundo">
+                    <h3>Porcentagem de Gorjeta:</h3>
+                    <select name="a" id="select">
+                        <option value=".05">5%</option>
+                        <option value=".10">10%</option>
+                        <option value=".15">15%</option>
+                    </select>
+                    <button class="botao" id="botaao">Calcular Gorjeta</button>
+                </div>
+            </div>
+            <div class="result">
+                <h1>Resultado:</h1>
+                <p>A gorjeta é <span id="valor"> R$5.00 </span> por pessoa</p>
+            </div>
+        </div>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+</html>
